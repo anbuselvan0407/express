@@ -5,10 +5,10 @@ import dotenv from 'dotenv';
 dotenv.config();
 
 const pool = mysql.createPool({
-  host: "localhost",
-  user: "root",
-  database: "SchoolDB",
-  password: "softsuave",
+  host: "express-main-sanbu0407-889b.d.aivencloud.com",
+  user: "avnadmin",
+  database: "defaultdb",
+  password: "AVNS_Iqq7d7bw7emX0tgHjLc",
   
 });
 
